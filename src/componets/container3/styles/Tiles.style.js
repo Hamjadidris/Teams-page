@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const Tile = styled.div`
   width: 30%;
-  height: 30vh;
+  height: 32vh;
   display: flex;
-  gap: 0.3rem;
+  gap: 1rem;
   flex-direction: column;
   padding: 2rem;
   border-radius: 10px;
@@ -22,7 +22,7 @@ export const Tile = styled.div`
 export const DepartmentIcon = styled.img`
     height: 30%;
     @media (max-width: 768px) {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
 `;
 

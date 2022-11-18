@@ -53,11 +53,14 @@ export const LandingInfo = styled.div`
     padding: 3vw;
     h1{
         font-size: 2.5rem;
-        width: 100%;
+        width: 95%;
         line-height: normal;
     }
     h2{
         visibility: hidden;
+    }
+    h3{
+        width: 95%;
     }
   }
 `;

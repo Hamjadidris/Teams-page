@@ -53,7 +53,7 @@ export const LandingInfo = styled.div`
     padding: 3vw;
     h1{
         font-size: 2.5rem;
-        width: 90%;
+        width: 100%;
         line-height: normal;
     }
     h2{

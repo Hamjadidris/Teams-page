@@ -3,13 +3,13 @@ import styled from "styled-components";
 export const Tile = styled.div`
   width: 30%;
   height: 35vh;
-  display: flex;
-  gap: 1rem;
   flex-direction: column;
   padding: 1.5rem;
   border-radius: 10px;
   align-items: flex-start;
-  justify-content: space-evenly;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
   background-color: #FFFEFC;
 
   @media (max-width: 1100px) {
@@ -22,7 +22,7 @@ export const Tile = styled.div`
 export const DepartmentIcon = styled.img`
     height: 30%;
     @media (max-width: 768px) {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.2rem;
   }
 `;
 
@@ -33,6 +33,10 @@ font-size: 1.8rem;
 line-height: 32px;
 letter-spacing: -0.02em;
 color: #555962;
+
+    @media (max-width: 768px) {
+    margin-bottom: 1rem;
+  }
 `;
 
 export const DepartmentInfo = styled.h5`

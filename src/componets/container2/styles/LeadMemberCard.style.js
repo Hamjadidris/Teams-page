@@ -32,7 +32,7 @@ export const MemberName = styled.h3`
 
   }
   @media (max-width: 768px) {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #0F172A;
 
   }

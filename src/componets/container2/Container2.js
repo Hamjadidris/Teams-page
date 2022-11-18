@@ -32,7 +32,7 @@ const Container2 = () => {
           <LeadMemberCard
             img={naza}
             MemberName="Chinaza Obiekwe"
-            MemberPosition="COO/Co-Founderr"
+            MemberPosition="COO/Co-Founder"
           />
           <LeadMemberCard
             img={cynthia}

@@ -11,6 +11,10 @@ export const JoinTeam = styled.div`
     line-height: 56px;
     letter-spacing: -0.04em;
     color: #0f172a;
+
+    @media (max-width: 768px) {
+    font-size: 2.5rem;
+  }
   }
   a {
     margin-top: 1rem;

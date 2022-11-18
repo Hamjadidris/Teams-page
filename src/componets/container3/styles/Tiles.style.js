@@ -16,11 +16,14 @@ export const Tile = styled.div`
     width: 48%;
   }
   @media (max-width: 768px) {
-    width: 90%;
+    width: 100%;
   }
 `;
 export const DepartmentIcon = styled.img`
     height: 30%;
+    @media (max-width: 768px) {
+    margin-bottom: 2rem;
+  }
 `;
 
 export const DepartmentName = styled.h3`

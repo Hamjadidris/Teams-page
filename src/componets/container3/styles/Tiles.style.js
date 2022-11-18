@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 export const Tile = styled.div`
   width: 30%;
-  height: 32vh;
+  height: 35vh;
   display: flex;
   gap: 1rem;
   flex-direction: column;
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 10px;
   align-items: flex-start;
   justify-content: space-evenly;

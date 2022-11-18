@@ -10,7 +10,7 @@ export const Tile = styled.div`
   display: flex;
   justify-content: start;
   gap: 0.5rem;
-  background-color: #FFFEFC;
+  background-color: #fffefc;
 
   @media (max-width: 1100px) {
     width: 48%;
@@ -21,21 +21,18 @@ export const Tile = styled.div`
   }
 `;
 export const DepartmentIcon = styled.img`
-    height: 30%;
-     margin-bottom: 2rem;
-
+  height: 30%;
+  margin-bottom: 2rem;
 `;
 
 export const DepartmentName = styled.h3`
-font-style: normal;
-font-weight: 700;
-font-size: 1.8rem;
-line-height: 32px;
-letter-spacing: -0.02em;
-color: #555962;
-margin-bottom: 1rem;
-
-
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  color: #555962;
+  margin-bottom: 1rem;
 `;
 
 export const DepartmentInfo = styled.h5`

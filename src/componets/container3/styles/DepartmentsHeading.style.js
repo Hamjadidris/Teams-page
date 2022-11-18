@@ -1,0 +1,10 @@
+import styled from "styled-components";
+
+export const DepartmentsHeading = styled.h1`
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 56px;
+  letter-spacing: -0.04em;
+  color: #131825;
+`;

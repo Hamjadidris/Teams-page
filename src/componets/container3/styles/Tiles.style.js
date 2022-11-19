@@ -1,22 +1,20 @@
 import styled from "styled-components";
 
 export const Tile = styled.div`
-  width: 30%;
-  height: 17rem;
+  width: 24rem;
+  min-height: 18rem;
   flex-direction: column;
-  padding: 1.5rem;
-  border-radius: 10px;
+  padding: 2rem;
+  border-radius: 16px;
   align-items: flex-start;
   display: flex;
   justify-content: start;
-  gap: 0.5rem;
   background-color: #fffefc;
 
-  @media (max-width: 1100px) {
+  @media (max-width: 1200px) {
     width: 48%;
   }
   @media (max-width: 768px) {
-    padding-bottom: 2rem;
     width: 100%;
   }
 `;
@@ -39,7 +37,7 @@ export const DepartmentInfo = styled.h5`
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 17px;
+  line-height: 24px;
   letter-spacing: 0.02em;
   color: #555962;
 

@@ -43,7 +43,7 @@ export const LandingInfo = styled.div`
         font-size: 3rem;
     }
     h2{
-        visibility: hidden;
+        /* visibility: hidden; */
     }
     h3{
         width: 80%;
@@ -57,7 +57,7 @@ export const LandingInfo = styled.div`
         line-height: normal;
     }
     h2{
-        visibility: hidden;
+        /* visibility: hidden; */
     }
     h3{
         width: 95%;

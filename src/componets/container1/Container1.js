@@ -8,7 +8,7 @@ const Container1 = () => {
     <>
       <Container>
         <LandingInfo>
-          <h2> COMPANY ・ TEAM </h2>
+          <h2> COMPANY • TEAM </h2>
           <h1> Meet the brilliant team at StreetRates </h1>
           <h3>
             Our team brings together a plethora of skills, backgrounds,
